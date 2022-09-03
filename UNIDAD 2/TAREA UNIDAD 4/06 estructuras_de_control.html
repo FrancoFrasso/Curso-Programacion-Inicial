@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+</head>
+
+<body>
+    <script>
+        distancia = parseInt(prompt('Ingrese distancia en números:', ''));
+
+        if (distancia == 0 || distancia < 1001 ) { // || OR
+            document.write('Medio de transporte adecuado a Pie.');
+        } else if (distancia == 1001 ||distancia < 10001  ) {
+            document.write('Medio de transporte adecuado en bicicleta.');
+        } else if (distancia == 10001 ||distancia < 30001 ) {
+            document.write('Medio de transporte adecuado en colectivo.');
+        }
+        else if (distancia == 30001 ||distancia < 100001) {
+            document.write('Medio de transporte adecuado en auto.');
+        }  
+         else {
+            document.write('Medio de transporte adecuado en avion.');
+        }
+    </script>
+
+</body>
+
+</html>

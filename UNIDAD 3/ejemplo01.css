@@ -1,0 +1,20 @@
+p  {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    
+}
+.franco{color: red;}
+h2 {color: red;
+    background-color: aqua;
+    text-align: center;
+}
+h1{
+    font-style: italic;
+    filter: brightness(152%);
+    background: #130909;
+background: linear-gradient(80deg,#130909 0%, #989f98 80%);
+background: -webkit-linear-gradient(80deg,#130909 0%, #989f98 80%);
+background: -moz-linear-gradient(80deg,#130909 0%, #989f98 80%);
+}
+#franco01{color:blue ;}
