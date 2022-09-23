@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="INDEX.css">
+    <script src="https://kit.fontawesome.com/62ea397d3a.js" crossorigin="anonymous"></script>
+</head>
+</head>
+
+<body>
+   
+    <nav class="naveg">
+		<ul class="nav__ul">
+			<li class="nav__li "> <i class="fas fa-home"></i><a href="#">Inicio</a></li>
+			<li class="nav__li"><i class="fas fa-user-friends"></i><a href="#">Sobre nosotros</a></li>
+			<li class="nav__li"><i class="fas fa-credit-card"></i><a href="#">Medios de Pago</a></li>
+			<li class="nav__li"><i class="fas fa-question-circle"></i><a href="#">Preguntas Frecuentes</a></li>
+            
+		</ul>
+        
+        </nav>
+
+
+
+    <div class="container-fluid " style="background-color: rgb(17, 167, 74);text-align: center;" >
+        <h2>DEJANOS TUS DATOS Y TE CONTACTAREMOS <i class="fas fa-phone"></i></h2>
+    </div>
+
+    <div class="row">
+        <div class="col-9" style="background-color:rgb(151, 162, 165);">
+            <form class="row g-3 needs-validation" novalidate>
+                <div class="col-md-3">
+                    <label for="validationCustom01" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="validationCustom01" value="" required>
+                    <div class="valid-feedback">
+                        Genial!
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <label for="validationCustom02" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="validationCustom02" value="" required>
+                    <div class="valid-feedback">
+                        Genial!
+                    </div>
+                    
+                </div>
+                <div class="col-md-2">
+                    <label for="validationCustom02" class="form-label">Cel</label>
+                    <input stytype="text" class="form-control" id="validationCustom02" placeholder="Sin el 15" value="" required>
+                    <div class="valid-feedback">
+                        Genial!
+                    </div>
+                    
+                </div>
+                <div class="col-md-3">
+                    <label for="validationCustomUsername" class="form-label">E-Mail</label>
+                    <div class="input-group has-validation">
+                        <span class="input-group-text" id="inputGroupPrepend">@</span>
+                        <input type="email" class="email" id="validationCustomUsername"
+                            aria-describedby="inputGroupPrepend" required>
+                        <div class="invalid-feedback">
+                            Por favor, escriba su email.
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-md-6">
+                    <label for="validationCustom03" class="form-label">Ciudad</label>
+                    <input type="text" class="form-control" id="validationCustom03" required>
+                    <div class="invalid-feedback">
+                        Coloque una Ciudad Valida
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <label for="validationCustom04" class="form-label">Provincia</label>
+                    <select class="form-select" id="validationCustom04" required>
+                        <option selected disabled value="">Seleccionar</option>
+                        <option> Buenos Aires</option>
+                        <option>Ciudad Autonoma de Buenos Aires</option>
+                        <option> Catamarca</option>
+                        <option> Chaco</option>
+                        <option> Chubut</option>
+                        <option>Córdoba</option>
+                        <option>Corrientes</option>
+                        <option>Entre Ríos</option>
+                        <option>Formosa</option>
+                        <option>Jujuy</option>
+                        <option>La Pampa</option>
+                        <option> La Rioja</option>
+                        <option>Mendoza</option>
+                        <option>Misiones</option>
+                        <option>Neuquén</option>
+                        <option>Río Negro</option>
+                        <option>Salta</option>
+                        <option>San Juan</option>
+                        <option>San Luis</option>
+                        <option>Santa Cruz</option>
+                        <option> Santa Fe</option>
+                        <option>Santiago del Estero</option>
+                        <option>Tierra del Fuego, Antártida e Islas del Atlántico Sur</option>
+                        <option>Tucumán</option>
+                    </select>
+                    <div class="invalid-feedback">
+                        Seleccione una provincia valida
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <label for="validationCustom05" class="form-label">CP</label>
+                    <input type="text" class="form-control" id="validationCustom05" required>
+                    <div class="invalid-feedback">
+                        Coloque un CP valido
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                        <label class="form-check-label" for="invalidCheck">
+                            Acepto los terminos y condiciones
+                        </label>
+                        <div class="invalid-feedback">
+                            Necesitas aceptar los terminos y condiciones
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button class="btn btn-primary" type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="col-3" style="background-color:rgb(230, 173, 178);">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_2X_873325-MLA50512057355_062022-F.webp"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Opcion 1</h5>
+                            <p class="card-text">Negro detalles en blanco</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_894208-MLA50512057356_062022-O.webp"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Opcion 2</h5>
+                            <p class="card-text">Vino tinto detalles en blanco</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_840051-MLA50512057354_062022-O.webp"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Opcion 3</h5>
+                            <p class="card-text">Agua Marino detalles en blanco</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_709059-MLA50512057352_062022-O.webp"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Opcion 4</h5>
+                            <p class="card-text">Celeste detalles en blanco</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
