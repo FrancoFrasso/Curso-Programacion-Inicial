@@ -1,0 +1,72 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+
+    <title>LOGIN | Maquetado de Ambos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="/stylesheets/LOGUEAR USUARIO.CSS">
+    <link rel="icon" href="LOGO-modified.png">
+
+
+</head>
+
+
+<div style="
+
+">
+
+
+    <section class="registro">
+
+        <form action="/admin/novedades/modificar" method="post" enctype="multipart/form-data">
+            <p>
+            <h1 style="text-align: center; margin-top:150px">MODIFICAR NOVEDADES</h1></p>
+        
+
+            <input type="hidden" value=" {{novedad.id}} " name="id">
+
+            <div> <input class="form-control" type="text" name="titulo" id="titulo" placeholder="Ingrese el Titulo"
+                    value=" {{novedad.titulo}} ">
+            </div>
+            <p></p>
+            <div><input style="min-height:100px;" class="form-control" type="text" name="subtitulo" id="subtitulo"
+                    placeholder="Ingrese el Subtitulo" value=" {{novedad.subtitulo}} ">
+            </div>
+            <p>
+
+
+            <div>
+                <p>Insertar Imagen</p>
+                <label> <input type="file" name="imagen" id="imagen" /> </label>
+            </div>
+            </p>
+            <p>
+                <label>
+                    <input type="checkbox" name="img_delete" id="img_delete" value="1">
+                    Eliminar imagen
+                </label>
+                <input type="hidden" name="img_original" value=" {{novedad.img_id}} ">
+            </p>
+            {{!-- <div><input style="min-height:150px;" class="form-control" type="text" name="cuerpo" id="cuerpo"
+                    placeholder="Ingrese el Contenido" value=" {{novedad.cuerpo}} "></div> --}}
+
+            <div class="form-group">
+                <textarea name="cuerpo" id="cuerpo" class="form-control"
+                    placeholder="Ingrese el Contenido"> {{novedad.cuerpo}}</textarea>
+            </div>
+
+            <p></p>
+
+            <button type="submit" class="btn btn-primary"> Modificar</button>
+
+
+
+        </form>
+        {{#if error}}
+        <p> {{message}} </p>
+        {{/if}}
+    </section>
+</div>

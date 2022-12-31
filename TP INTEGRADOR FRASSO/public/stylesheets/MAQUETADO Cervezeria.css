@@ -1,0 +1,403 @@
+* {
+    font-family: 'Oswald', sans-serif !important;
+    font-size: medium !important;
+
+
+
+
+}
+
+body {
+    display: flexbox;
+    width: 100%;
+    min-width: 350px;
+    min-height: 350px;
+    background-image: url(/images/Fondo.jpg);
+}
+
+.navbar-nav{
+    width: 100%;
+  
+}
+
+.buscador{
+    display: flex;
+}
+
+.busqueda{  border: 1px solid white;
+    color: white;
+    margin-left:3px ;
+    margin-top: 2px;}
+#register{
+    border: 1px solid white;
+    color: white;
+    margin-left:3px ;
+    margin-top: 2px;
+}
+
+.logsesion{
+   
+    margin-left: 450px;
+    display: flex;
+}
+#login{
+    border: 1px solid white;
+    display: inline-block;
+    
+    
+    
+    margin-left:3px ;
+    margin-top: 2px;
+    
+}
+
+h1 img{
+ object-fit: cover;
+    margin: 85px  auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 5px 15px #888;
+   
+    
+  
+}
+
+
+
+
+p {
+    margin-left: 10px;
+}
+
+.nav-link {
+    color: white;
+}
+
+
+
+
+.navbar-brand:hover{
+    opacity: 100% !important;
+}
+
+#home {
+    text-align: center;
+}
+
+footer {
+    flex-grow: 1;
+    min-width: 100vh;
+    display: block;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 0%;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+    opacity: 75%;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none
+}
+
+.nav-link:link {
+    color: white;
+    text-decoration: none
+}
+
+.nav-link:hover {
+    color: white;
+    text-decoration: none
+}
+
+.nav-link:visited {
+    color: white;
+    text-decoration: none
+}
+
+.whatsapp:link {
+    text-decoration: none
+}
+
+.whatsapp:hover {
+    color: black !important;
+    text-decoration: none
+}
+
+.whatsapp:visited {
+    color: black;
+    text-decoration: none
+}
+
+#barraventas {
+    border: 2px solid black;
+    display: block;
+    margin-top: 10px;
+    min-width: 100%;
+
+}
+
+.icon1 {
+    width: 50px;
+    height: 50px;
+}
+
+.icon2 {
+    width: 50px;
+    height: 50px;
+}
+
+.icon3 {
+    width: 50px;
+    height: 50px;
+}
+
+.hero {
+
+    background: url(/images/1499.jpg) no-repeat;
+    background-size: cover;
+    color: rgb(5, 7, 6);
+    height: 250px;
+    min-height: 200px;
+    background-color: transparent;
+
+}
+
+.carousel {
+    display: block;
+    text-align: center;
+    margin: auto;
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+
+}
+
+.carousel2 {
+    display: block;
+    text-align: center;
+    margin: auto;
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    
+}
+.carousel:hover {
+    display: block;
+    
+}
+.carousel:hover .buy{
+    transition: all 1s;
+    display: inline-block;
+    
+}
+.carousel2:hover .buy{
+    transition: all 1s;
+    display: inline-block;
+    
+}
+.carousel2 img {
+    object-fit: contain;
+}
+
+
+#carouselExampleControls {
+    border: 1px solid black;
+}
+
+#carouselExampleControls2 {
+    border: 1px solid black;
+}
+
+
+
+h2 {
+    
+    text-align: center;
+    padding-top: 20px;
+    
+
+}
+.new {
+    
+    text-align: center;
+    padding-top: 100px;
+    
+
+}
+
+.card-img-top{
+    border: solid 1px black;
+}
+.card-group{
+    
+    text-align: center;
+    max-width: 1024px;
+    max-height: 768px;
+    border-radius: 10%;
+    
+    
+}
+
+    
+
+.card-group:hover .buy{
+    transition: all 1s;
+    display: inline-block;
+    
+}
+.Oferta {
+    text-decoration: line-through;
+}
+
+.comprar {
+    color: black !important;
+    text-decoration: none;
+}
+.buy{
+    display: none;
+   
+  border-radius: 50px 25px 50px 25px;    
+
+    height: 30px;
+    width: 100px;
+}
+
+.buy:hover{
+    opacity: 50%;
+    color: black;
+}
+.iconnew{
+    width: 25px;
+    height: 25px;
+}
+
+
+
+.social-icons {
+    
+    margin-left: 100px;
+    grid-column: auto;
+    text-align: right;
+    display: flex;
+    flex-grow: 1;
+    padding: 0;
+    list-style: none;
+    display: inline-flexbox;
+    
+}
+
+.social-icons li {
+    margin: 0 20px;
+}
+
+.social-icons li a {
+    border: 3px solid deepskyblue;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 50%;
+    border-right: none;
+    border-top: none;
+    transition: 1s ease;
+}
+
+.social-icons li a:hover {
+    border-top: 3px solid;
+    border-right: 3px solid;
+    transform: rotate(360deg);
+    background-color: deepskyblue;
+    border-color: white;
+    
+}
+.map{
+    background-color: black;
+    margin:auto;
+
+
+}
+.Copyright{
+    text-align: right;
+}
+
+.modalfade {
+    background-color: red;
+}
+
+.whatsapp{
+    text-decoration: none;
+}
+
+.contenedorr { 
+    display:inline-flex;
+   
+    margin: auto;
+    color: black;
+    text-align: center;
+    align-items: center;
+    /* background-image: url(/images/iimages.jpg); */
+    padding: 30px;
+   
+  
+    
+      
+}
+
+.textmodal{
+    color: black;
+}
+.modalcontainer{
+    padding: 10px;
+    text-align: center;
+   
+    max-width: 250px;
+    max-height: 250px;
+    color: black;
+    
+}
+
+.modal1{
+    color: black;
+    border-radius: 50%;
+    text-align: center;
+    border: solid black 2px;
+    width: 120px;
+    height: 150px;
+    
+}
+
+.modal2{
+    
+    text-align: center;
+    margin: auto;
+    border: solid red 2px;
+    width: 450px;
+    height: 450px;
+    
+}
